@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(251, 253, 255);
+  font-family: 'Oswald', Arial, sans-serif;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+  margin-top: 45px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+}
+
+.text-danger {
+  color: red;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.badge {
+  color: white !important ;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.table-row-clickable:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-item {
+  flex: 1;
+}
+
+#done p {
+  font-size: 90px;
+  color: rgb(68, 184, 68);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#done h5 {
+  padding-top: 30px;
+  color: rgb(187, 228, 126);
+}
+
+#done {
+  box-shadow: 0 2px 4px rgba(5, 200, 5, 0.4);
+}
+
+#inProgress p {
+  font-size: 90px;
+  color: rgb(250, 250, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#inProgress h5 {
+  padding-top: 30px;
+  color: rgb(240, 240, 120);
+}
+
+.btn.btn-primary {
+  background-color: #ee9348;
+}
+
+.tasksTitle {
+  margin-left: 75px;
+}
+
+#inProgress {
+  box-shadow: 0 2px 4px rgba(238, 238, 19, 0.6);
+}
+
+#pastDueDate p {
+  font-size: 90px;
+  color: rgb(233, 19, 19);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pastDueDate h5 {
+  padding-top: 30px;
+  color: rgb(246, 129, 129);
+}
+
+.container h2 {
+  padding-top: 35px;
+}
+
+.navbar {
+  background-color: #ee9348;
+}
+
+.navbar-brand img {
+  max-width: 30px;
+}
+
+.nav-link img {
+  width: 30px;
+  height: 30px;
+}
+
+.row.mt-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button-container {
+  margin-left: 75px;
+}
+.btn.btn-info {
+  background-color: #ee9348;
+  border-color: #ee9348;
+  margin-top: 10px;
+}
+
+.btn.btn-info:hover {
+  background-color: #cbc6c2;
+  border-color: #cbc6c2;
+}
+
+#pastDueDate {
+  box-shadow: 0 2px 4px rgba(255, 132, 132, 0.6);
+}
+
+.table {
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(202, 194, 194, 0.6);
+}
+
+.badge {
+  border-radius: 15px;
+}
+
+.table-container {
+  margin-left: 75px;
+  margin-right: 75px;
+}
